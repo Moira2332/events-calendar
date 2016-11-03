@@ -11,25 +11,21 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   font-family: sans-serif;
+  font-family: "Merriweather", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
-.img-flex {
-  width: 100%;
-}
-.sun,.mon,.tues,.tue,.wed,.thu,.fri,.sat {
+.sun, .mon, .tues, .tue, .wed, .thu, .fri, .sat {
   border: 1px solid #ccc;
 }
 
 td {
   border: 1px solid #ccc;
+}
+
 tbody td {
   height: 8em;
   border-bottom-color: #ccc;
@@ -57,8 +53,6 @@ ul li {
   border: 1px solid #666;
   color: #333;
 }
-
-
 
 .green {
   background-color: #d1e0bf;
